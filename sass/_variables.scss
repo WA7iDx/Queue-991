@@ -1,0 +1,22 @@
+// _variables.scss
+$primary-color: #4ABB82;
+$header-color: #1D1D35;
+$padding: 16px;
+
+
+
+// Variables (LTR)
+$padding-start: 16px;
+$padding-end: 16px;
+$text-align-start: left;
+$text-align-end: right;
+$color-test:red;
+
+// Variables (RTL)
+body[dir="rtl"] {
+    $color-test:blue;
+    $padding-start: 16px;
+    $padding-end: 32px;
+    $text-align-start: right;
+    $text-align-end: left;
+}

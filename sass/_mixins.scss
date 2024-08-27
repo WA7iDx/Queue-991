@@ -1,0 +1,45 @@
+@mixin center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin section-badage{
+    text-transform: capitalize;
+    padding: 4px 8px;
+    display: flex;
+    gap: 4px;
+    width: fit-content;
+    border-radius: 100vw;
+    background-color: $primary-color;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    img{
+        width: 20px;
+    }
+}
+@mixin green-button($fontSize , $paddingY, $paddingX ){
+    text-decoration: none;
+    color: white;
+    background-color: $primary-color;
+    border: 1.5px solid $primary-color;
+    border-radius: 100vw;
+    padding:$paddingY $paddingX;
+    font-size:$fontSize;
+    cursor: pointer;
+    font-weight: 500;
+}
+@mixin white-button($fontSize  , $paddingY, $paddingX){
+    text-decoration: none;
+    color: $header-color;
+
+    border-radius: 100px;
+border: 1px solid #D5DAE1;
+box-shadow: 0px 1px 2px 0px rgba(105, 81, 255, 0.05);
+padding:$paddingY $paddingX; 
+    font-size:$fontSize;
+    cursor: pointer;
+    font-weight: 500;
+}

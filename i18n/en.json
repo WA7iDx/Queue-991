@@ -1,0 +1,108 @@
+{
+  "dir": "ltr",
+  "services": "services",
+  "features": "features",
+  "pricing": "pricing",
+  "blog": "blog",
+  "case-study": "cases study",
+  "login": "Partners Login",
+  "book": "Book a Demo",
+  "testimonial": "testimonial",
+  "faq": "FAQ",
+  "q-solution": "Queue Soluation",
+  "q-solution-header": "Be online with a dedicated website to represent your brand",
+  "q-solution-content": "Start working with Queue that can provide everything you need to generate sales, drive traffic, connect with your loyal customers.",
+  "order-button": "Book a Demo",
+  "talk-button": "Contact Sales",
+  "partner-header": "Trusted by",
+  "partner-content": " They are not our clients, but partners in success",
+  "services-header": "Track your business in a new way",
+  "services-content": "Here are some services that help your business with Queue Soluation.",
+  "sales": "Sales",
+  "manage": "Manage",
+  "reports": "Reports",
+  "marketing": "Marketing",
+  "tab-1-header": "Custmoize responsive website for ordering.",
+  "tab-1-content": "Launch a website that is suitable for all devices, which allows your customers to browse and purchase your products using different and diverse payment methods.",
+  "tab-1-list-1": "Responsive website.",
+  "tab-1-list-2": "New, trending, and adjustable website.",
+  "tab-1-list-3": "comfortable and easy purchasing experience.",
+
+  "tab-2-header": "Esaliy manage your products and sales.",
+  "tab-2-content": "simplify the product management system, manage stock, delivery zones, payment methods, store details and statistics in your dashboard.",
+  "tab-2-list-1": "Manage products,orders and stock",
+  "tab-2-list-2": "Manage delivery zone and order times",
+  "tab-2-list-3": "Manage order modes and payment methods",
+  "tab-2-list-4": " view your sales statistics ",
+
+  "tab-3-header": "Easily accessibly your business reports.",
+  "tab-3-content": "Save a lot of time and effort and review all important reports as sales, stock, customesr and payment reports in one place",
+  "tab-3-list-1": "Order,stock & customers reports",
+  "tab-3-list-2": "item & Vendor statement reports",
+  "tab-3-list-3": "Sales reports",
+  "tab-3-list-4": "Expired & statistics reports",
+
+  "tab-4-header": "Marketing is a base factor for the success of your business.",
+  "tab-4-content": "You won't need marketing campaigns anymore, we will market your products and offers.",
+  "tab-4-list-1": "Special part for promo codes ",
+  "tab-4-list-2": "Unlimited offers ",
+  "tab-4-list-3": "Ads and promotional advertisements",
+  "tab-4-list-4": "Your clients feedback",
+  "more-link": "Learn More",
+
+  "feild-header": "Queue is bulid for many fields.",
+  "feild-content": "Whatever your field of trade, you can count on Queue and its support for various sectors.",
+  "feild-card-header": "restaurants",
+  "feild-card-content": "Everything you need to run your business digitally.",
+
+  "features-header": "So, why choose Queue?",
+  "features-content": "We worked on all necessary things to save your time and money.",
+
+  "why-card-header": "Support team",
+  "why-card-content": "Stay connected with your team and make quick decisions wherever ",
+
+  "pricing-header": "Flexible pricing plan for your business",
+  "pricing-content": "Choose & Manage your package to what your business really needs.",
+
+  "pricing-card-name-1": "Enterprise",
+  "pricing-card-title-1": "Let’s talk",
+  "pricing-feature-title": "Features Included :",
+  "pricing-feature-1": "Feature title",
+
+  "pricing-card-name-2": "Starter",
+  "pricing-card-currency": "KD ",
+  "pricing-feature-title": "Features Included :",
+  "pricing-feature-2": "Feature title",
+
+  "pricing-card-name-3": "Queue Pro",
+  "pricing-card-year": "/per year ",
+  "pricing-feature-title": "Features Included :",
+  "pricing-feature-3": "Feature title",
+  "price-btn": "Talk to Sales",
+
+  "testimonial-1": "Queue dashboard is something I recommend to every other restaurant owner. I am also impressed with Queue quality after-sale experience, especially their customer support.",
+  "client-name-1": "Seluman El-Qassem",
+  "client-title-1": "CEO & Founder at twins restaurant",
+
+  "story-header": "Partners cases study",
+  "story-content": "Get to know our customers' success stories and their experience with Queue.",
+
+  "story-card-date": "Mohaned Tark • 20 Jan 2023",
+  "story-card-header": "McDonald's and the story of increasing profits through",
+  "story-card-content": "Moayed Tells the importance of electronic marketing in the management restaurant ",
+  "story-card-tag": "Restaurant Marketing",
+
+  "faq-header": "What the FAQ ?",
+  "faq-content": "Most frequently asked questions can be found here, explore more questions if there is more.",
+
+  "faq-q-1": "Is Queue an app ?",
+  "faq-ans-1": "ofc this is a demo answer to fit some content for us",
+
+  "ready-header": "Ready to get started",
+  "ready-content": " Let's come together and showcase how we can attain growth your business.",
+
+  "footer-sub": "Subscribe to our newsletter to stay in touch.",
+  "footer-news": "Sign up to receive updates and feature releases to your email.",
+  "enter-email": "Enter your email",
+  "subscribe": "subscribe"
+}

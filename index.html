@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- 😶‍🌫️Start NAVBAR 😶‍🌫️ -->
+    <nav class=" ">
+      <div class="container d-flex justify-content-between">
+        <div class="d-flex gap-5">
+          <a class="logo">
+            <img src="assets/images/Logo.svg" alt="Logo Image" />
+          </a>
+          <ul class="nav-links">
+            <li><a data-i18n="services" href="#"></a></li>
+            <li><a data-i18n="features" href="#"></a></li>
+            <li><a data-i18n="pricing" href="#"></a></li>
+            <li><a data-i18n="blog" href="#"></a></li>
+            <li><a data-i18n="case-study" href="#"> </a></li>
+            <div class="btn-holder-responsive">
+              <a data-i18n="login" class="login-button"></a>
+              <a data-i18n="book" class="book-button"></a>
+            </div>
+          </ul>
+        </div>
+
+        <div class="d-flex align-items-center gap-3">
+          <div class="language-switch">
+            <button id="lang-en" class="">
+              <img src="assets/images/planet-7.svg" alt="" />En
+            </button>
+            <button id="lang-ar" class="">
+              <img src="assets/images/planet-7.svg" alt="" />ع
+            </button>
+          </div>
+          <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <a data-i18n="login" class="login-button d-lg-block d-none"></a>
+          <a data-i18n="book" class="book-button d-lg-block d-none"></a>
+        </div>
+      </div>
+    </nav>
+    <!-- End NAVBAR 😶‍🌫️ -->
+    <!-- 1️⃣ Start HERO SECTION 1️⃣ -->
+    <section class="mt-5">
+      <div class="container">
+        <div class="section-badge mb-4">
+          <img src="/assets/images/sparkle 1.svg" alt="" />
+          <span data-i18n="q-solution"></span>
+        </div>
+        <div class="section-header text-center">
+          <h1 data-i18n="q-solution-header"></h1>
+          <p data-i18n="q-solution-content"></p>
+        </div>
+        <div class="d-flex gap-4 justify-content-center">
+          <a data-i18n="order-button" href="" class="section-button green"></a>
+          <a data-i18n="talk-button" href="" class="section-button white"></a>
+        </div>
+      </div>
+      <img
+        style="width: 100%"
+        src="assets/images/hero section img.svg"
+        alt=""
+      />
+    </section>
+    <!-- 1️⃣ END HERO SECTION 1️⃣ -->
+
+    <!-- 2️⃣ START PARTNER SECTION 2️⃣ -->
+    <section class="partner-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <h1 style="font-size: 30px" data-i18n="partner-header"></h1>
+          <p data-i18n="partner-content"></p>
+        </div>
+        <div class="logos-holder mt-5">
+          <img src="assets/images/partner.svg" alt="" />
+          <img src="assets/images/partner.svg" alt="" />
+          <img src="assets/images/partner.svg" alt="" />
+          <img src="assets/images/partner.svg" alt="" />
+          <img src="assets/images/partner.svg" alt="" />
+          <img src="assets/images/partner.svg" alt="" />
+          <img src="assets/images/partner.svg" alt="" />
+          <img src="assets/images/partner.svg" alt="" />
+          <img src="assets/images/partner.svg" alt="" />
+          <img src="assets/images/partner.svg" alt="" />
+          <img src="assets/images/partner.svg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- 2️⃣ END PARTNER SECTION 2️⃣ -->
+
+    <!-- 3️⃣ START SERVICES SECTION 3️⃣-->
+    <section class="services-section mt-5 container">
+      <div class="section-badge mb-4 px-3">
+        <img src="/assets/images/services.svg" alt="" />
+        <span data-i18n="services"></span>
+      </div>
+      <div class="section-header mb-5 text-center">
+        <h1 data-i18n="services-header"></h1>
+        <p data-i18n="services-content"></p>
+      </div>
+
+      <ul class="nav nav-tabs services-tabs" role="tablist">
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link active"
+            id="simple-tab-0"
+            data-bs-toggle="tab"
+            href="#simple-tabpanel-0"
+            role="tab"
+            aria-controls="simple-tabpanel-0"
+            aria-selected="true"
+          >
+            <img src="assets/images/service1.svg" alt="" />
+            <span data-i18n="sales"></span>
+          </a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link"
+            id="simple-tab-1"
+            data-bs-toggle="tab"
+            href="#simple-tabpanel-1"
+            role="tab"
+            aria-controls="simple-tabpanel-1"
+            aria-selected="false"
+            ><img src="assets/images/service2.svg" alt="" />
+            <span data-i18n="manage"></span>
+          </a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link"
+            id="simple-tab-2"
+            data-bs-toggle="tab"
+            href="#simple-tabpanel-2"
+            role="tab"
+            aria-controls="simple-tabpanel-2"
+            aria-selected="false"
+            ><img src="assets/images/service3.svg" alt="" />
+            <span data-i18n="reports"></span
+          ></a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link"
+            id="simple-tab-3"
+            data-bs-toggle="tab"
+            href="#simple-tabpanel-3"
+            role="tab"
+            aria-controls="simple-tabpanel-3"
+            aria-selected="false"
+            ><img src="assets/images/service4.svg" alt="" />
+            <span data-i18n="marketing"></span
+          ></a>
+        </li>
+      </ul>
+      <div class="tab-content pt-5" id="tab-content">
+        <div
+          class="tab-pane row active"
+          id="simple-tabpanel-0"
+          role="tabpanel"
+          aria-labelledby="simple-tab-0"
+        >
+          <div class="tab-content col-lg-5 col-12">
+            <h1 data-i18n="tab-1-header"></h1>
+            <p data-i18n="tab-1-content"></p>
+            <ul>
+              <li data-i18n="tab-1-list-1"></li>
+              <li data-i18n="tab-1-list-2"></li>
+              <li data-i18n="tab-1-list-3"></li>
+            </ul>
+            <a class="more-link" data-i18n="more-link"></a>
+          </div>
+          <div class="col-lg-6 col-12">
+            <img src="assets/images/tab-img1.svg" alt="" class="w-100" />
+          </div>
+        </div>
+        <div
+          class="tab-pane row"
+          id="simple-tabpanel-1"
+          role="tabpanel"
+          aria-labelledby="simple-tab-1"
+        >
+          <div class="tab-content col-lg-5 col-12">
+            <h1 data-i18n="tab-2-header"></h1>
+            <p data-i18n="tab-2-content"></p>
+            <ul>
+              <li data-i18n="tab-2-list-1"></li>
+              <li data-i18n="tab-2-list-2"></li>
+              <li data-i18n="tab-2-list-3"></li>
+              <li data-i18n="tab-2-list-4"></li>
+            </ul>
+            <a class="more-link" data-i18n="more-link"></a>
+          </div>
+          <div class="col-lg-6 col-12">
+            <img src="assets/images/tab-img2.svg" alt="" class="w-100" />
+          </div>
+        </div>
+        <div
+          class="tab-pane row"
+          id="simple-tabpanel-2"
+          role="tabpanel"
+          aria-labelledby="simple-tab-2"
+        >
+          <div class="tab-content col-lg-5 col-12">
+            <h1 data-i18n="tab-3-header"></h1>
+            <p data-i18n="tab-3-content"></p>
+            <ul>
+              <li data-i18n="tab-3-list-1"></li>
+              <li data-i18n="tab-3-list-2"></li>
+              <li data-i18n="tab-3-list-3"></li>
+              <li data-i18n="tab-3-list-4"></li>
+            </ul>
+            <a class="more-link" data-i18n="more-link"></a>
+          </div>
+          <div class="col-lg-6 col-12">
+            <img src="assets/images/tab-img3.svg" alt="" class="w-100" />
+          </div>
+        </div>
+        <div
+          class="tab-pane row"
+          id="simple-tabpanel-3"
+          role="tabpanel"
+          aria-labelledby="simple-tab-4"
+        >
+          <div class="tab-content col-lg-5 col-12">
+            <h1 data-i18n="tab-4-header"></h1>
+            <p data-i18n="tab-4-content"></p>
+            <ul>
+              <li data-i18n="tab-4-list-1"></li>
+              <li data-i18n="tab-4-list-2"></li>
+              <li data-i18n="tab-4-list-3"></li>
+              <li data-i18n="tab-4-list-4"></li>
+            </ul>
+            <a class="more-link" data-i18n="more-link"></a>
+          </div>
+          <div class="col-lg-6 col-12">
+            <img src="assets/images/tab-img4.svg" alt="" class="w-100" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 3️⃣ END SERVICES SECTION 3️⃣-->
+
+    <!-- 4️⃣ Start QUE FEILDS 4️⃣ -->
+    <section class="container mt-5 py-5 feilds-section">
+      <div class="section-header mb-5 text-center">
+        <img src="assets/images/feild-header-icon.svg" alt="" class="img-1" />
+        <img src="assets/images/feild-header-icon2.svg" alt="" class="img-2" />
+        <h1 data-i18n="feild-header"></h1>
+        <p data-i18n="feild-content"></p>
+      </div>
+      <div class="content-holder">
+        <div class="feilds-card col-6">
+          <div class="img-holder">
+            <img src="assets/images/feild-card-icon.svg" alt="" />
+          </div>
+          <h1 data-i18n="feild-card-header"></h1>
+          <p data-i18n="feild-card-content"></p>
+        </div>
+        <div class="feilds-card col-6">
+          <div class="img-holder">
+            <img src="assets/images/feild-card-icon.svg" alt="" />
+          </div>
+          <h1 data-i18n="feild-card-header"></h1>
+          <p data-i18n="feild-card-content"></p>
+        </div>
+        <div class="feilds-card col-6">
+          <div class="img-holder">
+            <img src="assets/images/feild-card-icon.svg" alt="" />
+          </div>
+          <h1 data-i18n="feild-card-header"></h1>
+          <p data-i18n="feild-card-content"></p>
+        </div>
+        <div class="iphone-holder">
+          <img src="assets/images/iphone.svg" alt="" />
+        </div>
+        <div class="feilds-card col-6">
+          <div class="img-holder">
+            <img src="assets/images/feild-card-icon.svg" alt="" />
+          </div>
+          <h1 data-i18n="feild-card-header"></h1>
+          <p data-i18n="feild-card-content"></p>
+        </div>
+        <div class="feilds-card col-6">
+          <div class="img-holder">
+            <img src="assets/images/feild-card-icon.svg" alt="" />
+          </div>
+          <h1 data-i18n="feild-card-header"></h1>
+          <p data-i18n="feild-card-content"></p>
+        </div>
+        <div class="feilds-card col-6">
+          <div class="img-holder">
+            <img src="assets/images/feild-card-icon.svg" alt="" />
+          </div>
+          <h1 data-i18n="feild-card-header"></h1>
+          <p data-i18n="feild-card-content"></p>
+        </div>
+      </div>
+    </section>
+    <!-- 4️⃣ END QUE FEILDS 4️⃣ -->
+
+    <!-- 5️⃣ Start WHY US FEILDS 5️⃣ -->
+    <section class="why-us-section">
+      <div class="container">
+        <div class="section-badge mb-4 px-3">
+          <img src="/assets/images/features.svg" alt="" />
+          <span data-i18n="features"></span>
+        </div>
+        <div class="section-header mb-5 text-center">
+          <h1 data-i18n="features-header"></h1>
+          <p data-i18n="features-content"></p>
+        </div>
+        <div class="d-flex flex-wrap justify-content-between">
+          <div class="why-us-card">
+            <div class="img-holder">
+              <img src="assets/images/why-us-card-icon.svg" alt="" />
+            </div>
+            <h1 data-i18n="why-card-header"></h1>
+            <p data-i18n="why-card-content"></p>
+          </div>
+          <div class="why-us-card">
+            <div class="img-holder">
+              <img src="assets/images/why-us-card-icon.svg" alt="" />
+            </div>
+            <h1 data-i18n="why-card-header"></h1>
+            <p data-i18n="why-card-content"></p>
+          </div>
+          <div class="why-us-card">
+            <div class="img-holder">
+              <img src="assets/images/why-us-card-icon.svg" alt="" />
+            </div>
+            <h1 data-i18n="why-card-header"></h1>
+            <p data-i18n="why-card-content"></p>
+          </div>
+          <div class="why-us-card">
+            <div class="img-holder">
+              <img src="assets/images/why-us-card-icon.svg" alt="" />
+            </div>
+            <h1 data-i18n="why-card-header"></h1>
+            <p data-i18n="why-card-content"></p>
+          </div>
+          <div class="why-us-card">
+            <div class="img-holder">
+              <img src="assets/images/why-us-card-icon.svg" alt="" />
+            </div>
+            <h1 data-i18n="why-card-header"></h1>
+            <p data-i18n="why-card-content"></p>
+          </div>
+          <div class="why-us-card">
+            <div class="img-holder">
+              <img src="assets/images/why-us-card-icon.svg" alt="" />
+            </div>
+            <h1 data-i18n="why-card-header"></h1>
+            <p data-i18n="why-card-content"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 5️⃣ END WHY US FEILDS 5️⃣ -->
+
+    <!-- 6️⃣ Start PRICING FEILDS 6️⃣ -->
+    <section class="pricing-section my-5 py-5">
+      <div class="container">
+        <div class="section-badge mb-4 px-3">
+          <img src="/assets/images/pricing.svg" alt="" />
+          <span data-i18n="pricing"></span>
+        </div>
+        <div class="section-header mb-5 text-center">
+          <h1 data-i18n="pricing-header"></h1>
+          <p data-i18n="pricing-content"></p>
+        </div>
+        <div class="d-flex flex-wrap justify-content-between">
+          <div class="pricing-card">
+            <div class="name">
+              <div class="img-holder">
+                <img src="assets/images/price-1.svg" alt="" />
+              </div>
+              <p data-i18n="pricing-card-name-1"></p>
+            </div>
+
+            <h1 data-i18n="pricing-card-title-1"></h1>
+            <h3 class="sub-header" data-i18n="pricing-feature-title"></h3>
+            <ul>
+              <li data-i18n="pricing-feature-3"></li>
+              <li data-i18n="pricing-feature-3"></li>
+              <li data-i18n="pricing-feature-3"></li>
+            </ul>
+            <a data-i18n="price-btn" class="price-btn" href=""></a>
+          </div>
+          <div class="pricing-card prime">
+            <div class="name">
+              <div class="img-holder">
+                <img src="assets/images/price-2.svg" alt="" />
+              </div>
+              <p data-i18n="pricing-card-name-2"></p>
+            </div>
+
+            <h1>
+              <span data-i18n="pricing-card-currency"></span>175
+              <span class="duration" data-i18n="pricing-card-year"></span>
+            </h1>
+            <h3 class="sub-header" data-i18n="pricing-feature-title"></h3>
+            <ul>
+              <li data-i18n="pricing-feature-3"></li>
+              <li data-i18n="pricing-feature-3"></li>
+              <li data-i18n="pricing-feature-3"></li>
+              <li data-i18n="pricing-feature-3"></li>
+              <li data-i18n="pricing-feature-3"></li>
+              <li data-i18n="pricing-feature-3"></li>
+              <li data-i18n="pricing-feature-3"></li>
+              <li data-i18n="pricing-feature-3"></li>
+              <li data-i18n="pricing-feature-3"></li>
+              <li data-i18n="pricing-feature-3"></li>
+              <li data-i18n="pricing-feature-3"></li>
+              <li data-i18n="pricing-feature-3"></li>
+            </ul>
+            <a data-i18n="price-btn" class="price-btn" href=""></a>
+          </div>
+          <div class="pricing-card">
+            <div class="name">
+              <div class="img-holder">
+                <img src="assets/images/price-3.svg" alt="" />
+              </div>
+              <p data-i18n="pricing-card-name-1"></p>
+            </div>
+
+            <h1>
+              <span data-i18n="pricing-card-currency"></span>250
+              <span class="duration" data-i18n="pricing-card-year"></span>
+            </h1>
+            <h3 class="sub-header" data-i18n="pricing-feature-title"></h3>
+            <ul>
+              <li data-i18n="pricing-feature-3"></li>
+              <li data-i18n="pricing-feature-3"></li>
+              <li data-i18n="pricing-feature-3"></li>
+              <li data-i18n="pricing-feature-3"></li>
+              <li data-i18n="pricing-feature-3"></li>
+              <li data-i18n="pricing-feature-3"></li>
+            </ul>
+            <a data-i18n="price-btn" class="price-btn" href=""></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 6️⃣ END PRICING FEILDS 6️⃣ -->
+
+    <!--  7️⃣START TESTOMINLS 7️⃣ -->
+    <section class="container testimonial-section mt-5 py-5">
+      <div class="section-badge mb-4 px-3">
+        <img src="/assets/images/testimonial.svg" alt="" />
+        <span data-i18n="testimonial"></span>
+      </div>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h1 data-i18n="testimonial-1"></h1>
+            <div class="img-holder">
+              <img src="assets/images/avatar.svg" alt="" />
+            </div>
+            <h3 data-i18n="client-name-1"></h3>
+            <p data-i18n="client-title-1"></p>
+          </div>
+          <div class="carousel-item">
+            <h1 data-i18n="testimonial-1"></h1>
+            <div class="img-holder">
+              <img src="assets/images/avatar.svg" alt="" />
+            </div>
+            <h3 data-i18n="client-name-1"></h3>
+            <p data-i18n="client-title-1"></p>
+          </div>
+          <div class="carousel-item">
+            <h1 data-i18n="testimonial-1"></h1>
+            <div class="img-holder">
+              <img src="assets/images/avatar.svg" alt="" />
+            </div>
+            <h3 data-i18n="client-name-1"></h3>
+            <p data-i18n="client-title-1"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 7️⃣ END TESTOMINLS 7️⃣ -->
+
+    <!-- 8️⃣START STROIES  8️⃣ -->
+    <section class="container story-section mt-5">
+      <div class="d-flex justify-content-between">
+        <div class="section-header col-md-9 col-12 mb-5 align-items-start">
+          <h1 data-i18n="story-header"></h1>
+          <p data-i18n="story-content"></p>
+        </div>
+        <div class="d-md-block mt-4 d-none">
+          <a
+            href=""
+            data-i18n="more-link"
+            class="section-button block white"
+          ></a>
+        </div>
+      </div>
+      <div class="d-flex flex-wrap justify-content-between">
+        <div class="story-card">
+          <div class="img-holder">
+            <img src="assets/images/story-1.png" alt="" />
+          </div>
+          <p data-i18n="story-card-date" class="date"></p>
+          <h1 data-i18n="story-card-header"></h1>
+          <p data-i18n="story-card-content"></p>
+          <div class="tags">
+            <div data-i18n="story-card-tag"></div>
+          </div>
+        </div>
+        <div class="story-card">
+          <div class="img-holder">
+            <img src="assets/images/story-1.png" alt="" />
+          </div>
+          <p data-i18n="story-card-date" class="date"></p>
+          <h1 data-i18n="story-card-header"></h1>
+          <p data-i18n="story-card-content"></p>
+          <div class="tags">
+            <div data-i18n="story-card-tag"></div>
+          </div>
+        </div>
+        <div class="story-card">
+          <div class="img-holder">
+            <img src="assets/images/story-1.png" alt="" />
+          </div>
+          <p data-i18n="story-card-date" class="date"></p>
+          <h1 data-i18n="story-card-header"></h1>
+          <p data-i18n="story-card-content"></p>
+          <div class="tags">
+            <div data-i18n="story-card-tag"></div>
+          </div>
+        </div>
+      </div>
+      <div class="d-md-none col-12 mt-4 d-block">
+        <a
+          href=""
+          data-i18n="more-link"
+          class="section-button col-12 block white"
+        ></a>
+      </div>
+    </section>
+    <!-- 8️⃣END STROIES  8️⃣ -->
+
+    <!-- 9️⃣ START FAQ 9️⃣ -->
+    <section class="faq-section my-5 py-5">
+      <div class="container">
+        <div class="section-badge mb-4 px-3">
+          <img src="/assets/images/faq.svg" alt="" />
+          <span data-i18n="faq"></span>
+        </div>
+        <div class="section-header mb-5 text-center">
+          <h1 data-i18n="faq-header"></h1>
+          <p data-i18n="faq-content"></p>
+        </div>
+
+        <div class="accordion" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+                data-i18n="faq-q-1"
+              ></button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div data-i18n="faq-ans-1" class="accordion-body"></div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+                data-i18n="faq-q-1"
+              ></button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div data-i18n="faq-ans-1" class="accordion-body"></div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+                data-i18n="faq-q-1"
+              ></button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div data-i18n="faq-ans-1" class="accordion-body"></div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+                data-i18n="faq-q-1"
+              ></button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div data-i18n="faq-ans-1" class="accordion-body"></div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+                data-i18n="faq-q-1"
+              ></button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div data-i18n="faq-ans-1" class="accordion-body"></div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <a
+            href=""
+            data-i18n="more-link"
+            class="section-button bg-white white"
+          ></a>
+        </div>
+      </div>
+    </section>
+    <!-- 9️⃣ END FAQ 9️⃣ -->
+
+    <!--1️⃣0️⃣ START READY WITH US1️⃣0️⃣  -->
+    <section class="mt-5 ready-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <h1 data-i18n="ready-header"></h1>
+          <p data-i18n="ready-content"></p>
+        </div>
+        <div class="d-flex gap-4 justify-content-center">
+          <a data-i18n="order-button" href="" class="section-button green"></a>
+          <a data-i18n="talk-button" href="" class="section-button white"></a>
+        </div>
+      </div>
+      <div class="ready-img">
+        <img src="assets/images/ready-img.svg" alt="" />
+      </div>
+    </section>
+    <!-- END READY WITH US -->
+
+    <!-- 1️⃣1️⃣ START FOOTER 1️⃣1️⃣ -->
+    <footer>
+      <div>
+        <div class="container mb-5 row justify-content-between">
+          <div class="col-lg-5 col-12">
+            <h1 data-i18n="footer-sub"></h1>
+          </div>
+          <div class="col-lg-5 col-12 news-subs">
+            <p data-i18n="footer-news"></p>
+            <div class="input-holder">
+              <input data-i18n="enter-email" type="text" />
+              <button data-i18n="subscribe"></button>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div
+          class="container sub-footer-holder py-4 my-4 align-items-center d-flex flex-wrap justify-content-between"
+        >
+          <div class="col-md-2 text-center col-12">
+            <img src="assets/images/footer logo.svg" alt="" />
+          </div>
+          <ul
+            class="d-flex flex-wrap my-4 my-lg-0 justify-content-center gap-5 col-12 col-md-8"
+          >
+            <li class="col-12 col-md-2 text-center">
+              <a data-i18n="services" href="#"></a>
+            </li>
+            <li class="col-12 col-md-2 text-center">
+              <a data-i18n="features" href="#"></a>
+            </li>
+            <li class="col-12 col-md-2 text-center">
+              <a data-i18n="pricing" href="#"></a>
+            </li>
+            <li class="col-12 col-md-2 text-center">
+              <a data-i18n="blog" href="#"></a>
+            </li>
+            <li class="col-12 col-md-2 text-center">
+              <a data-i18n="case-study" href="#"> </a>
+            </li>
+          </ul>
+          <div class="col-md-2 justify-content-center d-flex gap-2 col-12">
+            <div class="social-icon">
+              <img src="assets/images/Facebook.svg" alt="" />
+            </div>
+            <div class="social-icon">
+              <img src="assets/images/Instagram.svg" alt="" />
+            </div>
+            <div class="social-icon">
+              <img src="assets/images/Twitter.svg" alt="" />
+            </div>
+            <div class="social-icon">
+              <img src="assets/images/LinkedIn.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-wrap justify-content-center gap-3">
+          <p>© 2023 Queue. All right reserved</p>
+          <p>Privacy Policy</p>
+          <p>Term of Services</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 1️⃣1️⃣ END FOOTER 1️⃣1️⃣ -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
