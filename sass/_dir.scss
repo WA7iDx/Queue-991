@@ -1,23 +1,15 @@
-body{
-    //services tabs vars
-    --tabs-icon-margin:auto 0 auto 10px
+body {
+  //services tabs vars
+  --tabs-icon-margin: auto 0 auto 10px;
 }
 
-
 body[dir="rtl"] {
-    
-        --tabs-icon-margin:auto 0 auto 10px;
+  --tabs-icon-margin: auto 0 auto 10px;
 
-
-
-        .more-link::after{
-            content: ">";
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            left:-15px !important; 
-            right: auto;
-            
-        }
-
+  .more-link::after {
+    left: -25px !important;
+    right: auto;
+    rotate: -180deg;
+    transform: translateY(53%);
+  }
 }

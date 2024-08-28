@@ -12,44 +12,46 @@
   </head>
   <body>
     <!-- 😶‍🌫️Start NAVBAR 😶‍🌫️ -->
-    <nav class=" ">
-      <div class="container d-flex justify-content-between">
-        <div class="d-flex gap-5">
-          <a class="logo">
-            <img src="assets/images/Logo.svg" alt="Logo Image" />
-          </a>
-          <ul class="nav-links">
-            <li><a data-i18n="services" href="#"></a></li>
-            <li><a data-i18n="features" href="#"></a></li>
-            <li><a data-i18n="pricing" href="#"></a></li>
-            <li><a data-i18n="blog" href="#"></a></li>
-            <li><a data-i18n="case-study" href="#"> </a></li>
-            <div class="btn-holder-responsive">
-              <a data-i18n="login" class="login-button"></a>
-              <a data-i18n="book" class="book-button"></a>
-            </div>
-          </ul>
-        </div>
+    <header>
+      <nav class=" ">
+        <div class="container d-flex justify-content-between">
+          <div class="d-flex gap-5">
+            <a class="logo">
+              <img src="assets/images/Logo.svg" alt="Logo Image" />
+            </a>
+            <ul class="nav-links">
+              <li><a data-i18n="services" href="#"></a></li>
+              <li><a data-i18n="features" href="#"></a></li>
+              <li><a data-i18n="pricing" href="#"></a></li>
+              <li><a data-i18n="blog" href="#"></a></li>
+              <li><a data-i18n="case-study" href="#"> </a></li>
+              <li class="btn-holder-responsive">
+                <a data-i18n="login" class="login-button"></a>
+                <a data-i18n="book" class="book-button"></a>
+              </li>
+            </ul>
+          </div>
 
-        <div class="d-flex align-items-center gap-3">
-          <div class="language-switch">
-            <button id="lang-en" class="">
-              <img src="assets/images/planet-7.svg" alt="" />En
-            </button>
-            <button id="lang-ar" class="">
-              <img src="assets/images/planet-7.svg" alt="" />ع
-            </button>
+          <div class="d-flex align-items-center gap-3">
+            <div class="language-switch">
+              <button id="lang-en" class="">
+                <img src="assets/images/planet-7.svg" alt="" />En
+              </button>
+              <button id="lang-ar" class="">
+                <img src="assets/images/planet-7.svg" alt="" />ع
+              </button>
+            </div>
+            <div class="hamburger">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+            <a data-i18n="login" class="login-button d-lg-block d-none"></a>
+            <a data-i18n="book" class="book-button d-lg-block d-none"></a>
           </div>
-          <div class="hamburger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-          </div>
-          <a data-i18n="login" class="login-button d-lg-block d-none"></a>
-          <a data-i18n="book" class="book-button d-lg-block d-none"></a>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
     <!-- End NAVBAR 😶‍🌫️ -->
     <!-- 1️⃣ Start HERO SECTION 1️⃣ -->
     <section class="mt-5">
@@ -62,16 +64,20 @@
           <h1 data-i18n="q-solution-header"></h1>
           <p data-i18n="q-solution-content"></p>
         </div>
-        <div class="d-flex gap-4 justify-content-center">
-          <a data-i18n="order-button" href="" class="section-button green"></a>
-          <a data-i18n="talk-button" href="" class="section-button white"></a>
+        <div class="d-flex mb-4 gap-4 justify-content-center flex-wrap">
+          <a
+            data-i18n="order-button"
+            href=""
+            class="section-button text-center col-md-auto col-12 green"
+          ></a>
+          <a
+            data-i18n="talk-button"
+            href=""
+            class="section-button text-center col-md-auto col-12 white"
+          ></a>
         </div>
       </div>
-      <img
-        style="width: 100%"
-        src="assets/images/hero section img.svg"
-        alt=""
-      />
+      <img class="w-100" src="assets/images/hero section img.svg" alt="" />
     </section>
     <!-- 1️⃣ END HERO SECTION 1️⃣ -->
 
@@ -79,7 +85,7 @@
     <section class="partner-section">
       <div class="container">
         <div class="section-header text-center">
-          <h1 style="font-size: 30px" data-i18n="partner-header"></h1>
+          <h1 data-i18n="partner-header"></h1>
           <p data-i18n="partner-content"></p>
         </div>
         <div class="logos-holder mt-5">
@@ -172,7 +178,7 @@
           role="tabpanel"
           aria-labelledby="simple-tab-0"
         >
-          <div class="tab-content col-lg-5 col-12">
+          <div class="tab-content col-lg-5 order-lg-1 order-2 col-12">
             <h1 data-i18n="tab-1-header"></h1>
             <p data-i18n="tab-1-content"></p>
             <ul>
@@ -182,7 +188,7 @@
             </ul>
             <a class="more-link" data-i18n="more-link"></a>
           </div>
-          <div class="col-lg-6 col-12">
+          <div class="col-lg-6 order-lg-2 col-12">
             <img src="assets/images/tab-img1.svg" alt="" class="w-100" />
           </div>
         </div>
@@ -192,7 +198,7 @@
           role="tabpanel"
           aria-labelledby="simple-tab-1"
         >
-          <div class="tab-content col-lg-5 col-12">
+          <div class="tab-content order-lg-1 order-2 col-lg-5 col-12">
             <h1 data-i18n="tab-2-header"></h1>
             <p data-i18n="tab-2-content"></p>
             <ul>
@@ -203,7 +209,7 @@
             </ul>
             <a class="more-link" data-i18n="more-link"></a>
           </div>
-          <div class="col-lg-6 col-12">
+          <div class="col-lg-6 order-lg-2 col-12">
             <img src="assets/images/tab-img2.svg" alt="" class="w-100" />
           </div>
         </div>
@@ -213,7 +219,7 @@
           role="tabpanel"
           aria-labelledby="simple-tab-2"
         >
-          <div class="tab-content col-lg-5 col-12">
+          <div class="tab-content order-lg-1 order-2 col-lg-5 col-12">
             <h1 data-i18n="tab-3-header"></h1>
             <p data-i18n="tab-3-content"></p>
             <ul>
@@ -224,7 +230,7 @@
             </ul>
             <a class="more-link" data-i18n="more-link"></a>
           </div>
-          <div class="col-lg-6 col-12">
+          <div class="col-lg-6 order-lg-2 col-12">
             <img src="assets/images/tab-img3.svg" alt="" class="w-100" />
           </div>
         </div>
@@ -234,7 +240,7 @@
           role="tabpanel"
           aria-labelledby="simple-tab-4"
         >
-          <div class="tab-content col-lg-5 col-12">
+          <div class="tab-content order-lg-1 order-2 col-lg-5 col-12">
             <h1 data-i18n="tab-4-header"></h1>
             <p data-i18n="tab-4-content"></p>
             <ul>
@@ -245,7 +251,7 @@
             </ul>
             <a class="more-link" data-i18n="more-link"></a>
           </div>
-          <div class="col-lg-6 col-12">
+          <div class="col-lg-6 order-lg-2 col-12">
             <img src="assets/images/tab-img4.svg" alt="" class="w-100" />
           </div>
         </div>
@@ -256,8 +262,16 @@
     <!-- 4️⃣ Start QUE FEILDS 4️⃣ -->
     <section class="container mt-5 py-5 feilds-section">
       <div class="section-header mb-5 text-center">
-        <img src="assets/images/feild-header-icon.svg" alt="" class="img-1" />
-        <img src="assets/images/feild-header-icon2.svg" alt="" class="img-2" />
+        <img
+          src="assets/images/feild-header-icon.svg"
+          alt=""
+          class="img-1 d-none d-lg-block"
+        />
+        <img
+          src="assets/images/feild-header-icon2.svg"
+          alt=""
+          class="img-2 d-none d-lg-block"
+        />
         <h1 data-i18n="feild-header"></h1>
         <p data-i18n="feild-content"></p>
       </div>
@@ -283,7 +297,7 @@
           <h1 data-i18n="feild-card-header"></h1>
           <p data-i18n="feild-card-content"></p>
         </div>
-        <div class="iphone-holder">
+        <div class="iphone-holder text-center">
           <img src="assets/images/iphone.svg" alt="" />
         </div>
         <div class="feilds-card col-6">
@@ -511,6 +525,28 @@
             <p data-i18n="client-title-1"></p>
           </div>
         </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"
+            ><img src="assets/images/carsoul-arrow.svg" alt=""
+          /></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"
+            ><img src="assets/images/carsoul-arrow.svg" alt=""
+          /></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </section>
     <!-- 7️⃣ END TESTOMINLS 7️⃣ -->
@@ -533,6 +569,10 @@
       <div class="d-flex flex-wrap justify-content-between">
         <div class="story-card">
           <div class="img-holder">
+            <div class="info-holder">
+              <h1>Ahmed Khalifa</h1>
+              <p>Macdonald trump ceo</p>
+            </div>
             <img src="assets/images/story-1.png" alt="" />
           </div>
           <p data-i18n="story-card-date" class="date"></p>
@@ -544,6 +584,10 @@
         </div>
         <div class="story-card">
           <div class="img-holder">
+            <div class="info-holder">
+              <h1>Ahmed Khalifa</h1>
+              <p>Macdonald trump ceo</p>
+            </div>
             <img src="assets/images/story-1.png" alt="" />
           </div>
           <p data-i18n="story-card-date" class="date"></p>
@@ -555,6 +599,10 @@
         </div>
         <div class="story-card">
           <div class="img-holder">
+            <div class="info-holder">
+              <h1>Ahmed Khalifa</h1>
+              <p>Macdonald trump ceo</p>
+            </div>
             <img src="assets/images/story-1.png" alt="" />
           </div>
           <p data-i18n="story-card-date" class="date"></p>
@@ -707,9 +755,17 @@
           <h1 data-i18n="ready-header"></h1>
           <p data-i18n="ready-content"></p>
         </div>
-        <div class="d-flex gap-4 justify-content-center">
-          <a data-i18n="order-button" href="" class="section-button green"></a>
-          <a data-i18n="talk-button" href="" class="section-button white"></a>
+        <div class="d-flex gap-4 justify-content-center flex-wrap">
+          <a
+            data-i18n="order-button"
+            href=""
+            class="section-button col-md-auto col-12 text-center green"
+          ></a>
+          <a
+            data-i18n="talk-button"
+            href=""
+            class="section-button col-md-auto col-12 text-center white"
+          ></a>
         </div>
       </div>
       <div class="ready-img">
@@ -741,7 +797,7 @@
             <img src="assets/images/footer logo.svg" alt="" />
           </div>
           <ul
-            class="d-flex flex-wrap my-4 my-lg-0 justify-content-center gap-5 col-12 col-md-8"
+            class="d-flex flex-wrap my-4 my-lg-0 justify-content-center col-12 col-md-8"
           >
             <li class="col-12 col-md-2 text-center">
               <a data-i18n="services" href="#"></a>
@@ -774,10 +830,10 @@
             </div>
           </div>
         </div>
-        <div class="d-flex flex-wrap justify-content-center gap-3">
-          <p>© 2023 Queue. All right reserved</p>
-          <p>Privacy Policy</p>
-          <p>Term of Services</p>
+        <div class="d-flex flex-wrap justify-content-center text-center">
+          <p class="col-md-4 col-12">© 2023 Queue. All right reserved</p>
+          <p class="col-md-4 col-12">Privacy Policy</p>
+          <p class="col-md-4 col-12">Term of Services</p>
         </div>
       </div>
     </footer>

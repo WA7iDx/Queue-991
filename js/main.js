@@ -67,7 +67,8 @@ const hamburger = document.querySelector(".hamburger");
 const navLinks = document.querySelector(".nav-links");
 
 hamburger.addEventListener("click", () => {
+  document.documentElement.classList.toggle("overflow-y-hidden");
   navLinks.classList.toggle("open");
-
+  navLinks.classList.toggle("overflow-y-scroll");
   hamburger.classList.toggle("toggle");
 });
