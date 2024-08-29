@@ -158,14 +158,14 @@ nav.nav-scroll {
   .nav-links {
     box-sizing: border-box;
     position: fixed;
-    top: 90px;
+    top: 96.22px;
     left: 0;
     border-top: 1px solid #e1e3e5;
     background: white;
-    height: 90vh;
+    height: calc(100vh - 96.22px);
     width: 100vw;
     padding: 10px !important;
-    gap: 0px;
+    gap: 0px !important;
     flex-direction: column;
     clip-path: circle(50px at 90% -20%);
     -webkit-clip-path: circle(50px at 90% -10%);
@@ -180,7 +180,7 @@ nav.nav-scroll {
   }
   .nav-links li {
     opacity: 1;
-    margin: 20px;
+    margin: 12px;
   }
   .btn-holder-responsive {
     display: block;
@@ -190,12 +190,17 @@ nav.nav-scroll {
     padding-left: 13px;
     padding-right: 20px;
     margin-bottom: 30px;
-
+    .book-button:hover {
+      background-color: $primary-color;
+    }
     a {
       text-align: center;
       margin: 10px 0;
       display: block;
       width: 100%;
+      &:hover:before {
+        all: unset;
+      }
     }
   }
 }
@@ -235,112 +240,208 @@ nav.nav-scroll {
 
 // Services Section
 //reset tabs (boostrap) 😔
-.services-tabs {
-  flex-wrap: nowrap !important;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-  border-radius: 100px;
-  background: #f5f7fa;
-  padding: 10px 30px !important;
-  overflow: hidden;
-  justify-content: space-between;
-  border-bottom: none !important;
-
-  span {
-    display: inline-block;
-    margin: var(--tabs-icon-margin);
-    color: #556987;
-    font-size: 20px;
-  }
-  .nav-link {
-    display: flex;
-    gap: 10px;
-    padding: 12px 65px !important;
-    border-radius: 87.048px !important;
-  }
-  .nav-link.active {
-    background: var(--white, #fff);
-    box-shadow: 0px 3.439px 13.754px 0px rgba(0, 0, 0, 0.06);
-    border: none;
+.services-section {
+  .carousel-indicators {
+    flex-wrap: nowrap !important;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    border-radius: 100px;
+    background: #f5f7fa;
+    padding: 10px 30px !important;
+    overflow: hidden;
+    justify-content: space-between;
+    border-bottom: none !important;
+    width: 100%;
+    margin: 0;
+    top: 0;
+    bottom: auto;
 
     span {
-      color: #1d1d35 !important;
+      display: inline-block;
+      margin: var(--tabs-icon-margin);
+      color: #556987;
+      font-size: 20px;
     }
-  }
-
-  @media (max-width: 1200px) {
     .nav-link {
-      padding: 12px 45px !important;
+      display: flex;
+      gap: 10px;
+      padding: 12px 65px !important;
       border-radius: 87.048px !important;
     }
+    .nav-link.active {
+      background: var(--white, #fff);
+      box-shadow: 0px 3.439px 13.754px 0px rgba(0, 0, 0, 0.06);
+      border: none;
+
+      span {
+        color: #1d1d35 !important;
+      }
+    }
+    button {
+      display: flex;
+      text-indent: 0;
+      width: 24%;
+      justify-content: center;
+      height: fit-content;
+      border-radius: 100vw;
+    }
+    @media (max-width: 992px) {
+      display: none;
+    }
   }
-  @media (max-width: 992px) {
-    overflow-x: scroll !important;
-    box-shadow: 0px 0px 4px 0px inset #00000063;
-  }
-}
-.tab-content {
-  .active {
-    display: flex !important;
-  }
-  .tab-pane {
-    justify-content: space-between;
+  .carousel-inner {
+    .active,
+    .carousel-item-next,
+    .carousel-item-prev {
+      display: flex !important;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
     @media (min-width: 992px) {
-      h1 {
-        line-height: 120%;
-        font-size: 42px;
+      padding-top: 130px;
+    }
+    .carousel-item {
+      .res-title {
+        font-size: 16.052px;
+        margin-bottom: 40px;
       }
-      p {
-        font-size: 20px;
-        line-height: 150%;
-      }
-      ul {
-        li {
+      @media (min-width: 992px) {
+        .res-title {
+          display: none !important;
+        }
+        h1 {
+          line-height: 120%;
+          font-size: 42px;
+        }
+        p {
           font-size: 20px;
           line-height: 150%;
         }
+        ul {
+          li {
+            font-size: 20px;
+            line-height: 150%;
+          }
+        }
       }
-    }
-    @media (max-width: 991px) {
-      h1 {
-        line-height: 38px;
-        font-size: 30px;
-      }
-      p {
-        font-size: 16px;
-        line-height: 150%;
-      }
-      ul {
-        li {
+      @media (max-width: 991px) {
+        h1 {
+          line-height: 38px;
+          font-size: 30px;
+        }
+        p {
           font-size: 16px;
           line-height: 150%;
         }
+        ul {
+          li {
+            font-size: 16px;
+            line-height: 150%;
+          }
+        }
       }
-    }
-    h1 {
-      font-weight: 700;
+      h1 {
+        font-weight: 700;
 
-      margin-bottom: 20px;
-    }
-    p {
-      font-style: normal;
-      font-weight: 300;
-
-      width: 95%;
-      margin: 30px 0;
-    }
-    ul {
-      list-style-image: url("../assets/images/list-style-arrow.svg");
-      margin-left: 20px;
-      margin-right: 20px;
-      li {
-        color: "#333F51";
-
+        margin-bottom: 20px;
+      }
+      p {
+        font-style: normal;
         font-weight: 300;
 
-        margin-top: 10px;
+        width: 95%;
+        margin: 30px 0;
+      }
+      ul {
+        list-style-image: url("../assets/images/list-style-arrow.svg");
+        margin-left: 20px;
+        margin-right: 20px;
+        li {
+          color: "#333F51";
+
+          font-weight: 300;
+
+          margin-top: 10px;
+        }
       }
     }
+  }
+  > .carousel > button {
+    background-color: #d5dae1;
+    opacity: 1;
+
+    border-radius: 50%;
+    margin-left: 8px;
+    margin-right: 8px;
+    &.active {
+      background-color: $primary-color;
+    }
+    @media (min-width: 992px) {
+      display: none;
+    }
+  }
+  // reset arrows btns
+  .carousel-control-next,
+  .carousel-control-prev {
+    all: unset;
+    background-color: rgba(187, 195, 207, 0.501);
+    position: absolute;
+    top: 0;
+    bottom: auto;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    opacity: 1;
+    padding: 12px 16px;
+    transition: 0.3s ease-in-out;
+    img {
+      filter: brightness(1);
+      transition: 0.3s ease-in-out;
+    }
+    @media (min-width: 992px) {
+      top: 50%;
+    }
+    @media (max-width: 992px) {
+      scale: 0.75;
+    }
+  }
+  .carousel-control-prev {
+    transform: scale(-1) translateY(50%);
+    @media (max-width: 468px) {
+      right: 0% !important;
+    }
+    @media (min-width: 468px) {
+      right: 10% !important;
+    }
+
+    @media (min-width: 992px) {
+      right: 0 !important;
+    }
+  }
+  .carousel-control-next {
+    @media (max-width: 468px) {
+      right: 30% !important;
+    }
+    @media (min-width: 468px) {
+      right: 0%;
+    }
+
+    @media (min-width: 992px) {
+      right: 0;
+    }
+  }
+  //hover and focus effect for arrows
+  .carousel-control-next:focus,
+  .carousel-control-next:hover,
+  .carousel-control-prev:focus,
+  .carousel-control-prev:hover {
+    background-color: $primary-color;
+    img {
+      filter: brightness(10);
+    }
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    all: unset !important;
   }
 }
 
@@ -771,15 +872,16 @@ nav.nav-scroll {
     }
     @media (max-width: 992px) {
       bottom: 37px;
+      scale: 0.75;
     }
   }
   .carousel-control-prev {
     transform: scale(-1) translateY(50%);
     @media (max-width: 468px) {
-      left: 33% !important;
+      left: 30% !important;
     }
     @media (min-width: 468px) {
-      left: 38% !important;
+      left: 39% !important;
     }
     @media (min-width: 768px) {
       left: 42% !important;
@@ -791,10 +893,10 @@ nav.nav-scroll {
   }
   .carousel-control-next {
     @media (max-width: 468px) {
-      right: 33%;
+      right: 30% !important;
     }
     @media (min-width: 468px) {
-      right: 38%;
+      right: 39%;
     }
     @media (min-width: 768px) {
       right: 42%;
@@ -856,6 +958,7 @@ nav.nav-scroll {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -865,7 +968,7 @@ nav.nav-scroll {
         width: 200px;
         height: 84px;
         background-size: cover;
-        padding-right: 50px;
+        padding-right: 10px;
         h1 {
           color: white;
           font-size: 15px;

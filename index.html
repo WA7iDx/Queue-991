@@ -116,145 +116,187 @@
         <p data-i18n="services-content"></p>
       </div>
 
-      <ul class="nav nav-tabs services-tabs" role="tablist">
-        <li class="nav-item" role="presentation">
-          <a
-            class="nav-link active"
-            id="simple-tab-0"
-            data-bs-toggle="tab"
-            href="#simple-tabpanel-0"
-            role="tab"
-            aria-controls="simple-tabpanel-0"
-            aria-selected="true"
+      <div id="carouselExampleIndicators2" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators2"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
           >
-            <img src="assets/images/service1.svg" alt="" />
-            <span data-i18n="sales"></span>
-          </a>
-        </li>
-        <li class="nav-item" role="presentation">
-          <a
-            class="nav-link"
-            id="simple-tab-1"
-            data-bs-toggle="tab"
-            href="#simple-tabpanel-1"
-            role="tab"
-            aria-controls="simple-tabpanel-1"
-            aria-selected="false"
-            ><img src="assets/images/service2.svg" alt="" />
-            <span data-i18n="manage"></span>
-          </a>
-        </li>
-        <li class="nav-item" role="presentation">
-          <a
-            class="nav-link"
-            id="simple-tab-2"
-            data-bs-toggle="tab"
-            href="#simple-tabpanel-2"
-            role="tab"
-            aria-controls="simple-tabpanel-2"
-            aria-selected="false"
-            ><img src="assets/images/service3.svg" alt="" />
-            <span data-i18n="reports"></span
-          ></a>
-        </li>
-        <li class="nav-item" role="presentation">
-          <a
-            class="nav-link"
-            id="simple-tab-3"
-            data-bs-toggle="tab"
-            href="#simple-tabpanel-3"
-            role="tab"
-            aria-controls="simple-tabpanel-3"
-            aria-selected="false"
-            ><img src="assets/images/service4.svg" alt="" />
-            <span data-i18n="marketing"></span
-          ></a>
-        </li>
-      </ul>
-      <div class="tab-content pt-5" id="tab-content">
-        <div
-          class="tab-pane row active"
-          id="simple-tabpanel-0"
-          role="tabpanel"
-          aria-labelledby="simple-tab-0"
-        >
-          <div class="tab-content col-lg-5 order-lg-1 order-2 col-12">
-            <h1 data-i18n="tab-1-header"></h1>
-            <p data-i18n="tab-1-content"></p>
-            <ul>
-              <li data-i18n="tab-1-list-1"></li>
-              <li data-i18n="tab-1-list-2"></li>
-              <li data-i18n="tab-1-list-3"></li>
-            </ul>
-            <a class="more-link" data-i18n="more-link"></a>
+            <a
+              class="nav-link active"
+              id="simple-tab-0"
+              data-bs-toggle="tab"
+              href="#simple-tabpanel-0"
+              role="tab"
+              aria-controls="simple-tabpanel-0"
+              aria-selected="true"
+            >
+              <img src="assets/images/service1.svg" alt="" />
+              <span data-i18n="sales"></span>
+            </a>
+          </button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators2"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          >
+            <a
+              class="nav-link"
+              id="simple-tab-1"
+              data-bs-toggle="tab"
+              href="#simple-tabpanel-1"
+              role="tab"
+              aria-controls="simple-tabpanel-1"
+              aria-selected="false"
+              ><img src="assets/images/service2.svg" alt="" />
+              <span data-i18n="manage"></span>
+            </a>
+          </button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators2"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          >
+            <a
+              class="nav-link"
+              id="simple-tab-2"
+              data-bs-toggle="tab"
+              href="#simple-tabpanel-2"
+              role="tab"
+              aria-controls="simple-tabpanel-2"
+              aria-selected="false"
+              ><img src="assets/images/service3.svg" alt="" />
+              <span data-i18n="reports"></span
+            ></a>
+          </button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators2"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          >
+            <a
+              class="nav-link"
+              id="simple-tab-3"
+              data-bs-toggle="tab"
+              href="#simple-tabpanel-3"
+              role="tab"
+              aria-controls="simple-tabpanel-3"
+              aria-selected="false"
+              ><img src="assets/images/service4.svg" alt="" />
+              <span data-i18n="marketing"></span
+            ></a>
+          </button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a class="nav-link gap-2 res-title align-items-center active">
+              <img src="assets/images/service1.svg" alt="" />
+              <span data-i18n="sales"></span>
+            </a>
+            <div class="tab-content col-lg-5 order-lg-1 order-2 col-12">
+              <h1 data-i18n="tab-1-header"></h1>
+              <p data-i18n="tab-1-content"></p>
+              <ul>
+                <li data-i18n="tab-1-list-1"></li>
+                <li data-i18n="tab-1-list-2"></li>
+                <li data-i18n="tab-1-list-3"></li>
+              </ul>
+              <a class="more-link" data-i18n="more-link"></a>
+            </div>
+            <div class="col-lg-6 text-center order-lg-2 col-12">
+              <img src="assets/images/tab-img1.svg" alt="" class="w-100" />
+            </div>
           </div>
-          <div class="col-lg-6 order-lg-2 col-12">
-            <img src="assets/images/tab-img1.svg" alt="" class="w-100" />
+          <div class="carousel-item">
+            <a class="nav-link gap-2 res-title align-items-center active">
+              <img src="assets/images/service1.svg" alt="" />
+              <span data-i18n="manage"></span>
+            </a>
+            <div class="tab-content order-lg-1 order-2 col-lg-5 col-12">
+              <h1 data-i18n="tab-2-header"></h1>
+              <p data-i18n="tab-2-content"></p>
+              <ul>
+                <li data-i18n="tab-2-list-1"></li>
+                <li data-i18n="tab-2-list-2"></li>
+                <li data-i18n="tab-2-list-3"></li>
+                <li data-i18n="tab-2-list-4"></li>
+              </ul>
+              <a class="more-link" data-i18n="more-link"></a>
+            </div>
+            <div class="col-lg-6 text-center order-lg-2 col-12">
+              <img src="assets/images/tab-img2.svg" alt="" class="w-100" />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a class="nav-link gap-2 res-title align-items-center active">
+              <img src="assets/images/service1.svg" alt="" />
+              <span data-i18n="reports"></span>
+            </a>
+            <div class="tab-content order-lg-1 order-2 col-lg-5 col-12">
+              <h1 data-i18n="tab-3-header"></h1>
+              <p data-i18n="tab-3-content"></p>
+              <ul>
+                <li data-i18n="tab-3-list-1"></li>
+                <li data-i18n="tab-3-list-2"></li>
+                <li data-i18n="tab-3-list-3"></li>
+                <li data-i18n="tab-3-list-4"></li>
+              </ul>
+              <a class="more-link" data-i18n="more-link"></a>
+            </div>
+            <div class="col-lg-6 text-center order-lg-2 col-12">
+              <img src="assets/images/tab-img3.svg" alt="" class="w-100" />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a class="nav-link gap-2 res-title align-items-center active">
+              <img src="assets/images/service1.svg" alt="" />
+              <span data-i18n="marketing"></span>
+            </a>
+            <div class="tab-content order-lg-1 order-2 col-lg-5 col-12">
+              <h1 data-i18n="tab-4-header"></h1>
+              <p data-i18n="tab-4-content"></p>
+              <ul>
+                <li data-i18n="tab-4-list-1"></li>
+                <li data-i18n="tab-4-list-2"></li>
+                <li data-i18n="tab-4-list-3"></li>
+                <li data-i18n="tab-4-list-4"></li>
+              </ul>
+              <a class="more-link" data-i18n="more-link"></a>
+            </div>
+            <div class="col-lg-6 text-center order-lg-2 col-12">
+              <img src="assets/images/tab-img4.svg" alt="" class="w-100" />
+            </div>
           </div>
         </div>
-        <div
-          class="tab-pane row"
-          id="simple-tabpanel-1"
-          role="tabpanel"
-          aria-labelledby="simple-tab-1"
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators2"
+          data-bs-slide="prev"
         >
-          <div class="tab-content order-lg-1 order-2 col-lg-5 col-12">
-            <h1 data-i18n="tab-2-header"></h1>
-            <p data-i18n="tab-2-content"></p>
-            <ul>
-              <li data-i18n="tab-2-list-1"></li>
-              <li data-i18n="tab-2-list-2"></li>
-              <li data-i18n="tab-2-list-3"></li>
-              <li data-i18n="tab-2-list-4"></li>
-            </ul>
-            <a class="more-link" data-i18n="more-link"></a>
-          </div>
-          <div class="col-lg-6 order-lg-2 col-12">
-            <img src="assets/images/tab-img2.svg" alt="" class="w-100" />
-          </div>
-        </div>
-        <div
-          class="tab-pane row"
-          id="simple-tabpanel-2"
-          role="tabpanel"
-          aria-labelledby="simple-tab-2"
+          <span class="carousel-control-prev-icon" aria-hidden="true"
+            ><img src="assets/images/carsoul-arrow.svg" alt=""
+          /></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators2"
+          data-bs-slide="next"
         >
-          <div class="tab-content order-lg-1 order-2 col-lg-5 col-12">
-            <h1 data-i18n="tab-3-header"></h1>
-            <p data-i18n="tab-3-content"></p>
-            <ul>
-              <li data-i18n="tab-3-list-1"></li>
-              <li data-i18n="tab-3-list-2"></li>
-              <li data-i18n="tab-3-list-3"></li>
-              <li data-i18n="tab-3-list-4"></li>
-            </ul>
-            <a class="more-link" data-i18n="more-link"></a>
-          </div>
-          <div class="col-lg-6 order-lg-2 col-12">
-            <img src="assets/images/tab-img3.svg" alt="" class="w-100" />
-          </div>
-        </div>
-        <div
-          class="tab-pane row"
-          id="simple-tabpanel-3"
-          role="tabpanel"
-          aria-labelledby="simple-tab-4"
-        >
-          <div class="tab-content order-lg-1 order-2 col-lg-5 col-12">
-            <h1 data-i18n="tab-4-header"></h1>
-            <p data-i18n="tab-4-content"></p>
-            <ul>
-              <li data-i18n="tab-4-list-1"></li>
-              <li data-i18n="tab-4-list-2"></li>
-              <li data-i18n="tab-4-list-3"></li>
-              <li data-i18n="tab-4-list-4"></li>
-            </ul>
-            <a class="more-link" data-i18n="more-link"></a>
-          </div>
-          <div class="col-lg-6 order-lg-2 col-12">
-            <img src="assets/images/tab-img4.svg" alt="" class="w-100" />
-          </div>
-        </div>
+          <span class="carousel-control-next-icon" aria-hidden="true"
+            ><img src="assets/images/carsoul-arrow.svg" alt=""
+          /></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </section>
     <!-- 3️⃣ END SERVICES SECTION 3️⃣-->

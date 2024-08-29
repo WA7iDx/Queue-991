@@ -69,6 +69,6 @@ const navLinks = document.querySelector(".nav-links");
 hamburger.addEventListener("click", () => {
   document.documentElement.classList.toggle("overflow-y-hidden");
   navLinks.classList.toggle("open");
-  navLinks.classList.toggle("overflow-y-scroll");
+  navLinks.classList.toggle("overflow-y-auto");
   hamburger.classList.toggle("toggle");
 });
